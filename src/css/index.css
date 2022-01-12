@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Thunderhouse";
+        src: url("../fonts/thunderhouse.woff2") format('woff2'), url("../fonts/thunderhouse.woff") format('woff')
+    }
+    @font-face {
+        font-family: "Brother";
+        src: url("../fonts/brother.woff2") format('woff2'), url("../fonts/brother.woff") format('woff')
+    }
+}
