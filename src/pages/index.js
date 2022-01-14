@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <main>
       <Header isOpen={isOpen} setOpen={setOpen}/>
-      <div className="relative h-[50rem]" onClick={() => setOpen(false)} onScroll={() => setOpen(false)}>
+      <div className="relative h-[50rem]" onClick={() => setOpen(false)}>
       <img src={landingBg}/>
       <div className="absolute top-[79.625%] h-[20.3125rem] w-[84.167%] right-0 bg-[#FF4800]" >
         <div className="mt-[1.5625rem] ml-[1.8125rem] mr-[1.8125rem]">

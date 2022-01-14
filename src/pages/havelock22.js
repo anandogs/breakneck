@@ -8,6 +8,7 @@ const Havelock22 = () => {
     return (
         <div className="flex flex-col">
         <Header isOpen={isOpen} setOpen={setOpen}/>
+        <div onClick={() => {setOpen(false)}}>
         <div className="h-mob"/>
         <div className="h-[7.2rem] relative">
             <p className="absolute ml-[1.6875rem] font-thunderhouse text-havelock-mob leading-havelock-mob text-[#0349F7] z-20 rotate-[-2.87deg]">
@@ -153,6 +154,7 @@ const Havelock22 = () => {
 
             </div>        
       <Footer text='skill trumps'/>
+      </div>
         </div>
     )
 }
