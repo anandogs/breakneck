@@ -19,6 +19,8 @@ module.exports = {
             },
             margin: {
                 mob: '3.5625rem',
+                'bottom-h3':'2.2222222222vw',
+                'para-end':'5.8333333333vw',
                 'bottom-h1': '0.81vh',
                 'burger-closed-left': '10.22vw',
                 'burger-closed-right': '1.9875rem',

@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 const Header = (props) => {
   return (
     <div className="relative">
-      <div className="h-mob lg:h-tab absolute z-30 flex items-center lg:items-end  w-screen lg:grid lg:grid-cols-4">
+      <div className="h-mob lg:h-tab absolute z-30 flex items-center lg:items-end w-screen lg:grid lg:grid-cols-4">
         <div className="lg:hidden" onClick={() => props.setOpen(!props.isOpen)}>
           <img
             className={`${

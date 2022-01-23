@@ -3,5 +3,10 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "breakneck",
   },
-  plugins: ["gatsby-plugin-postcss"],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
+    "gatsby-plugin-postcss",
+  ],
 };
