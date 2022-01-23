@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Checkout from '../components/checkout';
 
 const PutName = () => {
     const [isOpen, setOpen] = useState(false)
@@ -70,7 +71,7 @@ const PutName = () => {
                         <button className="bg-[#FF4800] h-[1.3125rem] w-[2.8125rem] ml-[9.0625rem] mb-[1.3125rem]">
                             <p className="font-brother text-[0.5625rem] leading-[0.675rem] tracking-wider">I'M ON</p>
                         </button>
-                        
+                        {/* <Checkout/>                         */}
                     </form>
                     </div>
                 </div>

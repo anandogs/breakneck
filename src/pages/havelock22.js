@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Header from "../components/header"
 import Footer from "../components/footer"
+import { Link } from "gatsby";
 import havelock from '../images/havelock22-1.png'
 
 const Havelock22 = () => {
@@ -148,9 +149,11 @@ const Havelock22 = () => {
                 <p className="font-brother text-[.5625rem] ml-[5.375rem] mr-[2rem] mb-[1.4375rem] leading-3">
                 Breathing workshop at Something something.
                 </p>
+                <Link to='/putname'>
                 <div className="bg-[#FF4800] h-[1.3125rem] w-[3.875rem] flex items-center justify-center ml-[5.75rem] mb-[1.4375rem]">
                     <p className="font-brother text-[0.5625rem] leading-[0.675rem] tracking-wider">I’M DOWN</p>
                 </div>
+                </Link>
 
             </div>        
       <Footer text='skill trumps'/>
