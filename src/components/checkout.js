@@ -40,8 +40,8 @@ const Checkout = () => {
       mode: "payment",
       
       lineItems: [{ price: "price_1KLJ5zSIcdFEP5ExnB6pOmgo", quantity: 1 }],
-      successUrl: "https://www.google.com",
-      cancelUrl: "https://www.google.com",
+      successUrl: "https://www.breakneck.in",
+      cancelUrl: "https://www.breakneck.in",
       
     });
 
